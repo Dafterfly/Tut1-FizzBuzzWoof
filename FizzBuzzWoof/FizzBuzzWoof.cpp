@@ -19,8 +19,14 @@ int main()
 			cout << "Buzz ";
 		}
 
+		// Check Divisibility by 7
+		if (i % 7 == 0)
+		{
+			cout << "Woof ";
+		}
+
 		// Default case if it isn't divisible by either 3 or 5
-		if (!(i % 3 == 0) && !(i % 5 == 0))
+		if (!(i % 3 == 0) && !(i % 5 == 0) && !(i % 7 == 0))
 		{
 			cout << i;
 		}
