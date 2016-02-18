@@ -19,7 +19,12 @@ int main()
 			cout << "Buzz ";
 		}
 
-		
+		// Default case if it isn't divisible by either 3 or 5
+		else
+		{
+			cout << i;
+		}
+
 		cout << endl;
 	}// for i
 }// main method
