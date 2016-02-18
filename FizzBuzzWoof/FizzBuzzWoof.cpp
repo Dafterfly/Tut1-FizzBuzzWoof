@@ -13,6 +13,13 @@ int main()
 			cout << "Fizz ";
 		}
 
+		// Check Divisibility by 5
+		if (i % 5 == 0)
+		{
+			cout << "Buzz ";
+		}
+
+		
 		cout << endl;
 	}// for i
 }// main method
