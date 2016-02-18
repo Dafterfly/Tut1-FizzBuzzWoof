@@ -25,6 +25,7 @@ int main()
 			cout << i;
 		}
 
+		// moves cursor to new line
 		cout << endl;
 	}// for i
 }// main method
