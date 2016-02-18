@@ -25,7 +25,7 @@ int main()
 			cout << "Woof ";
 		}
 
-		// Default case if it isn't divisible by either 3 or 5
+		// Default case if it isn't divisible by either 3 or 5 or 7
 		if (!(i % 3 == 0) && !(i % 5 == 0) && !(i % 7 == 0))
 		{
 			cout << i;
